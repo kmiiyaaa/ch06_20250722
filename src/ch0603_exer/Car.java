@@ -26,6 +26,20 @@ public class Car {
 		engine.printEngine();
 	}
 	
+	// -------------------------------------ch06-04 리턴값
+
+	public Engine outputEngine() {  //타입에 클래스 Engine 넣으면 된다.
+		engine.type = "디젤";
+		engine.displacement = 2;
+		return engine;
+	}
 	
+	public String[] outputCars() {  
+		String[] cars = {"소나타", "아반떼", "k5"};
+		
+		carEngineType(); //클래스 안에서 서로 불러서 메서드 사용 가능
+		
+		return cars; //배열
+}
 
 }

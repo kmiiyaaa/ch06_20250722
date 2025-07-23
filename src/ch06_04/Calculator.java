@@ -26,6 +26,8 @@ public class Calculator {
 		}
 		return total;
 		
+//		System.out.println("안녕!!!"); ->  return문 뒤에 나오는 코드는 실행되지 않음, 에러
+		
 	}
 	
 	

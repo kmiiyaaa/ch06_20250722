@@ -25,12 +25,27 @@ public class MainClass {
     int[] arr= {10,20,30};
     c1.total(arr);
 	   
-   }
+   
+	//생성자 오버로딩
+	Rectangle r1 = new Rectangle(20, 10, "blue"); // 모두 다있는 3번째 생성자
+	Rectangle r2 = new Rectangle(100,200); //  color 매개변수 없는 2번째 생성자 
+	Rectangle r3 = new Rectangle();
 	
+	
+	//메소드 오버로딩
+	int area1 = r1.rectArea();  //200
+	int area2 = r1.rectArea(200);  //2000
+	int area3 = r1.rectArea(30,40); // 1200
+	
+	
+	
+	System.out.println(area1); 
+	System.out.println(area2);
+	System.out.println(area3); 
+		
 
 	
-	
-	
+	}
 		
 	}
 
