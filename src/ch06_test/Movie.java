@@ -6,8 +6,20 @@ public class Movie {
 	String genre; 
 	int runtime;
 
+	
+	public Movie (String title, String genre, int runtime) {
+		this.title = title;
+		this.genre = genre;
+		this.runtime = runtime;
+	}
+	
+	
 	public boolean isLongMovie() {
-		return runtime>=120;
+		if (runtime>=120) {
+		return true;
+	}else {
+		return false;
+	}
 	}
 
 

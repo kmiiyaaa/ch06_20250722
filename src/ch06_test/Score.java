@@ -5,6 +5,13 @@ public class Score {
 	int kor;
 	int eng;
 	int math;
+	
+	
+	public Score (int kor, int eng, int math) {
+		this.kor = kor;
+		this.eng = eng;
+		this.math = math;
+	}
 
 	public void printScore() { // 메서드
 		int sum =kor + eng + math;
