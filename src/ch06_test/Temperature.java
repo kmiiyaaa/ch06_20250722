@@ -9,7 +9,11 @@ public class Temperature {
 	}
     
 	public double toFahrenheit() {
+	
 	 return (celsius * 1.8) + 32;
+	 
+	// double fahrenheit = celscius*1.8+32  먼저 선언		
+    // return fahrenheit;
 }
 
 	

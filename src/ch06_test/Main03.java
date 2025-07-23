@@ -9,7 +9,6 @@ public class Main03 {
 		
 		
 		double t2 = t1.toFahrenheit();
-	
 		System.out.println("화씨 온도: " + t2);
 
 		

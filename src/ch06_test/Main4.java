@@ -9,9 +9,11 @@ public class Main4 {
         
 		
 		System.out.println("긴 영화인가요? : " + m1.isLongMovie());
+		
 	 }
 		
 		
 	}
 
 
+ 
