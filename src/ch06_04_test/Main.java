@@ -48,7 +48,7 @@ public class Main {
 		Triangle t1 = new Triangle();
 		boolean r1 = t1.isValid(3, 4, 5);
 		System.out.println(r1);
-		
+		//System.out.println(t1.isValid(3, 4, 5));
 
 	}
 
