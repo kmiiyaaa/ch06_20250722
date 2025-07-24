@@ -12,7 +12,7 @@ public class Triangle {
 	public boolean isValid(int a, int b, int c) {
 		return (a + b) > c && (a + c) > b && (b + c) > a;
 		
-		//boolean flag = (a + b) > c && (a + c) > b && (b + c) > a)
+		//boolean flag = (a + b) > c && (a + c) > b && (b + c) > a;
 		// return flag;
 	}
 
